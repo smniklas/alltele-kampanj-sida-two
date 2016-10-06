@@ -18,3 +18,14 @@ html{
 .center-logo{
     margin-top:5px;
 }
+.bottom-footer{
+    position: absolute!important;
+    width:100%;
+    bottom:0;
+    background-color: #0d598d!important;
+}
+.sub-content{
+    width:50%;
+    position: relative;
+    left:25%;
+}
