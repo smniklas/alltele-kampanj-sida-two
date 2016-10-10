@@ -19,13 +19,22 @@ html{
     margin-top:5px;
 }
 .bottom-footer{
-    position: absolute!important;
     width:100%;
     bottom:0;
     background-color: #0d598d!important;
+    flex: 1 0 auto;
 }
 .sub-content{
     width:50%;
     position: relative;
     left:25%;
 }
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
